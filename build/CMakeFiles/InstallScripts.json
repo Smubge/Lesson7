@@ -1,8 +1,0 @@
-{
-	"InstallScripts" : 
-	[
-		"/home/smubge/Documents/Cornell/CS6120/HW/llvm-pass-skeleton/build/cmake_install.cmake",
-		"/home/smubge/Documents/Cornell/CS6120/HW/llvm-pass-skeleton/build/skeleton/cmake_install.cmake"
-	],
-	"Parallel" : false
-}

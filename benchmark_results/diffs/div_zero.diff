@@ -1,0 +1,22 @@
+--- benchmark_results/ir_original/div_zero.ll	2025-10-22 23:30:51.903671472 -0400
++++ benchmark_results/ir_optimized/div_zero_opt.ll	2025-10-22 23:30:51.947329244 -0400
+@@ -1,4 +1,4 @@
+-; ModuleID = 'benchmarks/div_zero.c'
++; ModuleID = 'benchmark_results/ir_original/div_zero.ll'
+ source_filename = "benchmarks/div_zero.c"
+ target datalayout = "e-m:e-p270:32:32-p271:32:32-p272:64:64-i64:64-i128:128-f80:128-n8:16:32:64-S128"
+ target triple = "x86_64-pc-linux-gnu"
+@@ -6,11 +6,8 @@
+ ; Function Attrs: noinline nounwind optnone uwtable
+ define dso_local i32 @test_division() #0 {
+   %1 = alloca i32, align 4
+-  %2 = alloca i32, align 4
+-  store i32 5, ptr %1, align 4
+-  store i32 poison, ptr %2, align 4
+-  %3 = load i32, ptr %1, align 4
+-  ret i32 %3
++  store i32 poison, ptr %1, align 4
++  ret i32 5
+ }
+ 
+ attributes #0 = { noinline nounwind optnone uwtable "frame-pointer"="all" "min-legal-vector-width"="0" "no-trapping-math"="true" "stack-protector-buffer-size"="8" "target-cpu"="x86-64" "target-features"="+cmov,+cx8,+fxsr,+mmx,+sse,+sse2,+x87" "tune-cpu"="generic" }

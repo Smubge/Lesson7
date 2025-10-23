@@ -1,1 +1,1 @@
-/usr/bin/c++ -fPIC  -Wl,--gc-sections -Wl,--dependency-file=CMakeFiles/SkeletonPass.dir/link.d -shared  -o SkeletonPass.so CMakeFiles/SkeletonPass.dir/Skeleton.cpp.o  -Wl,-rpath,"\$ORIGIN/../lib:/usr/lib:" /usr/lib/libLLVM.so.20.1
+/usr/bin/c++ -fPIC  -Wl,--gc-sections -shared  -o SkeletonPass.so CMakeFiles/SkeletonPass.dir/Skeleton.cpp.o   -L/usr/lib/llvm-18/lib  -Wl,-rpath,"\$ORIGIN/../lib:/usr/lib/llvm-18/lib:" /usr/lib/llvm-18/lib/libLLVM.so.1 

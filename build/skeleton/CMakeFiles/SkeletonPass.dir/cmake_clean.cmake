@@ -1,5 +1,4 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/SkeletonPass.dir/link.d"
   "CMakeFiles/SkeletonPass.dir/Skeleton.cpp.o"
   "CMakeFiles/SkeletonPass.dir/Skeleton.cpp.o.d"
   "SkeletonPass.pdb"

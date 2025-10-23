@@ -8,8 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/smubge/Documents/Cornell/CS6120/HW/llvm-pass-skeleton/skeleton/Skeleton.cpp" "skeleton/CMakeFiles/SkeletonPass.dir/Skeleton.cpp.o" "gcc" "skeleton/CMakeFiles/SkeletonPass.dir/Skeleton.cpp.o.d"
-  "" "skeleton/SkeletonPass.so" "gcc" "skeleton/CMakeFiles/SkeletonPass.dir/link.d"
+  "/home/cynyu_s/6120CS/Lesson7/skeleton/Skeleton.cpp" "skeleton/CMakeFiles/SkeletonPass.dir/Skeleton.cpp.o" "gcc" "skeleton/CMakeFiles/SkeletonPass.dir/Skeleton.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.
